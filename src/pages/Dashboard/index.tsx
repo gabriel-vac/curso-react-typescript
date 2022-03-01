@@ -14,7 +14,7 @@ interface GithubRepository {
   };
 }
 
-export const Dashboard: React.FC = () => {
+const Dashboard: React.FC = () => {
   const [repos, setRepos] = React.useState<GithubRepository[]>(() => {
     //essa função é o valor inicial da state
     const storageRepos = localStorage.getItem("@GitCollection:repositorios");
@@ -112,3 +112,5 @@ export const Dashboard: React.FC = () => {
     </>
   );
 };
+
+export default Dashboard;

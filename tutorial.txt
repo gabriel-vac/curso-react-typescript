@@ -7,5 +7,6 @@ yarn add @types/styled-components -D
 yarn add polished //library para mexer com as cores
 yarn add react-icons
 yarn add axios
+yarn add -D cra-bundle-analyzer //analisar a build
 [mac]
 option + command + D //fechar o dock
